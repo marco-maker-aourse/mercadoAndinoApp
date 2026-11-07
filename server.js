@@ -21,7 +21,7 @@ const BUCKET = process.env.BUCKET;
 
 app.get("/", (req, res) => {
   res.send(
-    "MercadoAndino v1 - instancia " + os.hostname()
+    "MercadoAndino v2 - instancia " + os.hostname()
   );
 });
 
